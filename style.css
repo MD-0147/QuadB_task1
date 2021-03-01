@@ -1,0 +1,216 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif ,Algerian;
+ ----------------------------------------*****/
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+ @import url(animate.min.css);
+ @import url(normalize.css);
+ @import url(icomoon.css);
+ @import url(font-awesome.min.css);
+ @import url(meanmenu.css);
+ @import url(owl.carousel.min.css);
+ @import url(swiper.min.css);
+ @import url(slick.css);
+ @import url(jquery.fancybox.min.css);
+ @import url(jquery-ui.css);
+ @import url(nice-select.css);
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+/*---------------------------- scroll to top area ----------------------------*/
+
+.scrollup {
+     float: right;
+     position: absolute;
+     color: #fff;
+     right: 20px;
+     padding: 0px 5px;
+     text-transform: uppercase;
+     font-weight: 600;
+     background: #38c8a8;
+     position: fixed;
+     bottom: 20px;
+     z-index: 99;
+     text-align: center;
+     color: #fff;
+     cursor: pointer;
+     border-radius: 0px;
+     opacity: 0;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+     transform: scale(1);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transform: scale(1);
+     transition: .2s all ease;
+     -moz-transition: .2s all ease;
+     -o-transition: .2s all ease;
+     -webkit-transition: .2s all ease;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     line-height: 48px;
+     font-size: 16px;
+}
+ .scrollup.b-show_scrollBut {
+     opacity: 1;
+     visibility: visible;
+}
+ .top_awro {
+     background: #ee4a79 none repeat scroll 0 0;
+     cursor: pointer;
+     padding: 6px 8px;
+     position: fixed;
+     bottom: 59px;
+     right: 20px;
+     display: none;
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 30px;
+     transition: all 0.5s ease;
+}
+ .sale_pro {
+     background: #f25252 !important;
+}
+ .margin_top_50 {
+     margin-top: 50px;
+}
+ .margin_bottom_30_all {
+     margin-bottom: 30px;
+}
+ .text_align_center {
+     text-align: center;
+}
+header{
+  padding-top: 5px;
+
+  background-color: black;
+}
+.text-bg h1 {
+     color: #fff;
+     font-family: Algerian;
+     font-size: 60px;
+     text-align: center;
+     margin-bottom: auto;
+
+
+}
+#header.default-header #main-nav>ul>li>a {
+    border: 0;
+    padding: 1px 3px;
+}
+.main-nav ul li a:active {
+    background-color: #fff;
+
+}
+
+.main-nav>ul>li>a, .main-nav>ul>li.all-sections {
+    font-family: roboto,'Roboto',calibri,'arial narrow',sans-serif;
+    font-size: 12px;
+    padding: 1px 5px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.main-nav ul li  {
+
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    position: relative;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.nav-container{
+  background-color: #AF2c2C;
+  padding-top: 5px;
+  padding-left: 15%;
+
+}
+.main-nav ul li a:hover{
+  background-color: #fff;
+  color: black;
+}
+
+
+hr {
+
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:black;
+  height: 3px;
+
+}
+.nav-link li a:active{
+  background: #303030 !important;
+}
+.nav-link{
+  font-size: 10px;
+  font-weight: bold;
+  background-color:#A0A0A0;
+}
+.container h3{
+  font-weight: bold;
+  color: black;
+
+}
+.container h4{
+  font-weight: bold;
+  color: black;
+
+}
+.news-title h3
+{
+  padding-left:30px;
+}
+.row{
+  font-size: 13px ;
+}
+.row h4{
+  color: black;
+  font-size: 18px ;
+  font-style:
+  font-weight: bold;
+}
+.nav-tabs li a{
+  display: inline-block;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 130%;
+    color: #fff;
+    font-weight: 600;
+}
+ .nav-tabs li a:hover{
+  background: #303030;
+}
+img{
+  image-resolution: from-image;
+  width:80%;
+  height: 90%;
+  margin-left: 30px;
+
+
+}
+a
+
+{
+  color: #000 !important;
+}
+footer{
+  color: #fff;
+  background-color: #000000;
+}
